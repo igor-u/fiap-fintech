@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 950px) {
+
+    .main {
+        align-items: center;
+        margin: 0;
+    }
+    
+    .divisao{
+    	align-items: center;
+    }
+
+}

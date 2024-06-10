@@ -1,0 +1,63 @@
+.logo-login {
+    width: 20rem;
+}
+
+.logo-login:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+}
+
+form input {
+    text-align: center;
+    color: #ADACA7;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 0.2rem solid #ADACA7;
+}
+
+input::placeholder{
+    color: #ADACA7;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+
+.submit {
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    height: 4rem;
+    border: 0;
+    border-radius: 0.5rem;
+    color: rgb(221, 221, 221);;
+    background-color: #FF5200;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+
+#button-1 {
+    width: 125%;
+}
+
+#button-2 {
+    width: 100%;
+}

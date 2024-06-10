@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    align-items: start;
+    margin-left: 5rem;
+}
+
+.divisao {
+	align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+form input {
+    text-align: center;
+    color: #ADACA7;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 0.2rem solid #ADACA7;
+}
+
+input::placeholder{
+    color: #ADACA7;
+}
+
+#submit {
+    font-weight: bold;
+    height: 4rem;
+    width: 50%;
+    border: 0;
+    border-radius: 0.5rem;
+    color: rgb(221, 221, 221);;
+    background-color: #FF5200;
+}
+
+@media (max-width: 950px) {
+
+    .main {
+        align-items: center;
+        margin: 0;
+    }
+    
+    .divisao{
+    	align-items: center;
+    }
+
+}

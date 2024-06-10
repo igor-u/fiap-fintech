@@ -1,0 +1,26 @@
+.main {
+    align-items: start;
+    margin-left: 5rem;
+}
+
+.movimentacoes {
+    overflow-y: visible;
+}
+
+tbody tr td:hover {
+    background-color: var(--cor-6);
+    cursor: pointer;
+}
+
+@media (max-width: 950px) {
+
+    .main {
+        align-items: center;
+        margin: 0;
+    }
+    
+    .divisao{
+    	align-items: center;
+    }
+
+}

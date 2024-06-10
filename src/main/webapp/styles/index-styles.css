@@ -1,0 +1,44 @@
+.acoes {
+    width: 50vw;
+    height: 20rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem 0;
+    grid-template-areas: "acao1 acao2 acao3"
+                         "acao4 acao5 acao6";
+    margin: 1rem 0 1rem 0;
+    padding: 0 2rem;
+    color: var(--cor-4);
+    overflow-y: scroll;
+}
+
+.acao1 {
+    grid-area: acao1;
+}
+
+.acao2 {
+    grid-area: acao2;
+}
+
+.acao3 {
+    grid-area: acao3;
+}
+
+.acao4 {
+    grid-area: acao4;
+}
+
+.acao5 {
+    grid-area: acao5;
+}
+
+.acao6 {
+    grid-area: acao6;
+}
+
+.acao {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
